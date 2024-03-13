@@ -115,6 +115,9 @@ export class AppService {
         createdAt: true,
         isRead: true,
       },
+      orderBy: {
+        createdAt: 'desc',
+      },
     });
 
     return messages;
